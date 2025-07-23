@@ -1,0 +1,77 @@
+.eurismar {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.eurismar-container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 0 0 400px;
+}
+
+.fotinha {
+  border-radius: 15px;
+  background: lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-1 {
+  height: 443.41px;
+  aspect-ratio: 595 / 443.41;
+}
+
+.img-2 {
+  height: 330.4px;
+  aspect-ratio: 595 / 330.4;
+}
+
+.img-3 {
+  height: 756px;
+  aspect-ratio: 595 / 756;
+}
+
+.texto-eurismar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 872px;
+  height: 1652.91px;
+}
+
+.texto-eurismar h2 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.texto-eurismar p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.texto-eurismar h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.texto-eurismar ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.texto-eurismar ul li {
+  margin-bottom: 8px;
+}

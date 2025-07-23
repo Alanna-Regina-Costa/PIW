@@ -1,0 +1,74 @@
+footer {
+  background-color: #3baa49;
+  color: white;
+  padding: 40px 20px 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.footer-left h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-left p {
+  margin-bottom: 5px;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  margin-top: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.footer-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+  text-decoration: underline;
+}
+
+.cadastur-logo {
+  max-width: 120px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: underline;
+  margin-left: 10px;
+}

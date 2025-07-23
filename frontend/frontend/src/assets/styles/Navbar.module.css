@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+header.scrolled nav a {
+  color: #222;
+}
+
+header.scrolled nav a:hover {
+  color: #1db954;
+}
+
+.lang {
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+header.scrolled .lang {
+  color: #222;
+}
