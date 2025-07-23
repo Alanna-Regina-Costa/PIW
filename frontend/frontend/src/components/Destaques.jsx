@@ -4,28 +4,42 @@ import atv1 from '../assets/img/atvdestaq1.png';
 import atv2 from '../assets/img/atvdestaq2.png';
 import atv3 from '../assets/img/atvdestaq3.png';
 import atv4 from '../assets/img/atvdestaq4.png';
-
+import { Link } from 'react-router-dom';
 const Destaques = () => {
-  const atividades = [
-    { img: atv1, title: 'Tour para pilotos', link: '/tourpilotos' },
-    { img: atv2, title: 'Live tracking', link: '/livetracking' },
-    { img: atv3, title: 'Cursos para voo', link: '/cursosparavoo' },
-    { img: atv4, title: 'Turismo em Quixadá', link: '/turismoquixada' },
-  ];
-
   return (
-    <section id="destaq" className={styles.destaques}>
+    <section className={styles.destaques}>
       <h2>Atividades em destaque</h2>
-      <p>Explore quais são as atividades que mais se encaixam com você.</p>
+      
       <div className={styles.cards}>
-        {atividades.map((atv, index) => (
-          <a href={atv.link} key={index} className={styles.cardLink}>
-            <div className={styles.card}>
-              <img src={atv.img} alt={atv.title} />
-              <h3>{atv.title}</h3>
-            </div>
-          </a>
-        ))}
+        
+        <Link to="/tourpilotos" className={styles.cardLink}>
+          <div className={styles.card}>
+            <img src={atv1} alt="Tour para pilotos" />
+            <h3>Tour para pilotos</h3>
+          </div>
+        </Link>
+
+        <Link to="/livetracking" className={styles.cardLink}>
+          <div className={styles.card}>
+            <img src={atv2} alt="Live tracking" />
+            <h3>Live tracking</h3>
+          </div>
+        </Link>
+
+        <Link to="/cursosparavoo" className={styles.cardLink}>
+          <div className={styles.card}>
+            <img src={atv3} alt="Cursos para voo" />
+            <h3>Cursos para voo</h3>
+          </div>
+        </Link>
+
+        <Link to="/turismoquixada" className={styles.cardLink}>
+          <div className={styles.card}>
+            <img src={atv4} alt="Turismo em Quixadá" />
+            <h3>Turismo em Quixadá</h3>
+          </div>
+        </Link>
+
       </div>
     </section>
   );

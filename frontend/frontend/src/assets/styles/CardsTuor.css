@@ -1,0 +1,92 @@
+/* Estilos gerais */
+.tour-pilotos-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Grade de conteúdo */
+.grade {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Seções de conteúdo */
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.invertido {
+  flex-direction: row-reverse;
+}
+
+.tour-image {
+  width: 50%;
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.texto {
+  width: 50%;
+}
+
+.texto h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.texto p {
+  line-height: 1.6;
+  margin: 15px 0;
+  color: #555;
+}
+
+.texto small {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #2980b9;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .conteudo, .invertido {
+    flex-direction: column;
+  }
+  
+  .tour-image, .texto {
+    width: 100%;
+  }
+}
