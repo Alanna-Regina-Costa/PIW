@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../assets/styles/CardsTuor.css';
 import tourppilotos1 from '../../assets/img/tourppilotos1.png';
 import tourppilotos2 from '../../assets/img/tourppilotos2.png';
 import tourppilotos3 from '../../assets/img/tourppilotos3.png'; 

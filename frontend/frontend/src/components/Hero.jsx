@@ -1,14 +1,30 @@
 import React from 'react';
 import styles from '../assets/styles/Hero.module.css';
 
-const Hero = () => {
+const Hero = ({ 
+  title, 
+  subtitle, 
+  backgroundImage, 
+  buttonText, 
+  buttonAction,
+  className = "" 
+}) => {
   return (
-    <section className={styles.hero}>
+    <section 
+      className={`${styles.heroSection} ${className}`}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
       <div className={styles.heroContent}>
-        <h1>Aventure-se pelo sertão e <br /> viva uma experiência única!</h1>
-        <a href="#destaq" className={styles.btn}>
-          Descubra a aventura perfeita para você
-        </a>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+        {buttonText && (
+          <button 
+            className={styles.heroButton} 
+            onClick={buttonAction}
+          >
+            {buttonText}
+          </button>
+        )}
       </div>
     </section>
   );
