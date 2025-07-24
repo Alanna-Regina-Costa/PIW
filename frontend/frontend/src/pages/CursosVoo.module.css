@@ -1,0 +1,87 @@
+/* Estilos específicos para as seções de curso */
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 40px;
+}
+
+.conteudo:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.conteudo img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.texto {
+  max-width: 400px;
+}
+
+.texto h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.texto span {
+  color: #888;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.texto p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.texto strong {
+  display: block;
+  margin: 10px 0;
+}
+
+.texto small {
+  font-size: 13px;
+  color: #777;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #159f45;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .conteudo, 
+  .conteudo:nth-child(even) {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .conteudo img {
+    max-width: 100%;
+  }
+  
+  .texto {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,73 @@
+/* Container principal de cada seção de curso */
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+/* Alterna lado da imagem a cada seção */
+.conteudo:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* Estilo da imagem do curso */
+.courseImage {
+  width: 45%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* Container do texto */
+.texto {
+  width: 55%;
+}
+
+/* Título do curso */
+.texto h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Descrição do curso */
+.texto p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Botão "Saiba mais" */
+.botao {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #1db954;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.botao:hover {
+  background-color: #17a74a;
+  transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .conteudo, 
+  .conteudo:nth-child(even) {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .courseImage,
+  .texto {
+    width: 100%;
+  }
+}

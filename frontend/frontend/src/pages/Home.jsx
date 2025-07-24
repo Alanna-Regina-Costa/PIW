@@ -18,10 +18,10 @@ const Home = () => {
       <Hero
         title="Aventure-se pelo sertão e viva uma experiência única!"
         subtitle="Descubra a aventura perfeita para você"
-        backgroundImage = {bannerImage}
+        backgroundImage={bannerImage}
         buttonText="Reserve Agora"
         buttonAction={() => console.log('Botão clicado!')}
-      />
+  />
       <Destaques />
       <Sobre />
       <Eurismar />

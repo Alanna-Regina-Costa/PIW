@@ -7,13 +7,6 @@ import tourppilotos3 from '../../assets/img/tourppilotos3.png';
 const TourPilotos = () => {
   return (
     <div className="tour-pilotos-container">
-      {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-content">
-          <h1>Tour Para Pilotos</h1>
-        </div>
-      </section>
-
       {/* Grade de Conteúdo */}
       <div className="grade">
         
