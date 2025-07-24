@@ -30,7 +30,7 @@ const Footer = () => {
             <li>Aventura</li>
             <li>Parapentes</li>
           </ul>
-          <img src="cadasturLogo" alt="Cadastur" className="cadastur-logo" />
+          <img src={cadasturLogo} alt="Cadastur" className="cadastur-logo" />
         </div>
       </div>
 
