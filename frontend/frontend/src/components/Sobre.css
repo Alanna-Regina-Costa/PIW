@@ -73,7 +73,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Responsivo 
+
 @media (max-width: 900px) {
   .galeria-custom {
     grid-template-columns: 1fr;
@@ -82,7 +82,7 @@
   .img-baixo {
     grid-template-columns: 1fr;
   }
-} */
+}
 
 .descricao-wrapper {
   display: flex;
@@ -170,7 +170,6 @@
   background-color: #1db954;
   padding: 10px;
   border-radius: 12px;
-  filter: brightness(0) invert(1);
 }
 
 .cart h3 {

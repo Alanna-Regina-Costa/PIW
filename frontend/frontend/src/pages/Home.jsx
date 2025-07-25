@@ -5,7 +5,7 @@ import Destaques from '../components/Destaques';
 import Sobre from '../components/Sobre';
 import Eurismar from '../components/Eurismar';
 import Loja from '../components/Loja';
-import Blog from '../components/Blog';
+import Blog from '../components/BlogSection';
 import Footer from '../components/Footer';
 import bannerImage from '../assets/img/banner1.png';
 

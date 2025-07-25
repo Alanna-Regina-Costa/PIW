@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importe o Link do react-router-dom
 import '../assets/styles/Blog.css';
 import blog1 from '../assets/img/blog1.png';
 import blog2 from '../assets/img/blog2.png';
@@ -6,7 +7,7 @@ import blog3 from '../assets/img/blog3.png';
 import blog4 from '../assets/img/blog4.png';
 import blog5 from '../assets/img/blog5.png';
 
-const Blog = () => {
+const BlogSection = () => {
   return (
     <section id="blog" className="blog-destaques">
       <h2 className="blog-titulo">Blog</h2>
@@ -53,10 +54,10 @@ const Blog = () => {
       </div>
 
       <div className="botao-central">
-        <a href="/blog" className="btn-verde">Ler mais</a>
+        <Link to="/blog" className="btn-verde">Ler mais</Link>
       </div>
     </section>
   );
 };
 
-export default Blog;
+export default BlogSection;

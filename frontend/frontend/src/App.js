@@ -7,6 +7,7 @@ import LiveTracking from './pages/LiveTracking';
 import CursosVoo from './pages/CursosVoo';
 import TurismoQuixada from './pages/TurismoQuixada';
 import TourPilotos from './pages/TuorPilotos';
+import BlogPage from './pages/Blog';
 import './assets/styles/global.css';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/livetracking" element={<LiveTracking />} />
             <Route path="/cursosparavoo" element={<CursosVoo />} />
             <Route path="/turismoquixada" element={<TurismoQuixada />} />
+            <Route path="/blog" element={<BlogPage />} />
           </Routes>
         </main>
         

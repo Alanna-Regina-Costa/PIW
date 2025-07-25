@@ -31,10 +31,10 @@ const Navbar = () => {
         
         <nav className={styles.navLinks}>
           <Link to="/">Início</Link>
-          <Link to="/#destaq">Atividades</Link>
-          <Link to="/#sobre">Sobre Nós</Link>
-          <Link to="/#loja">Loja</Link>
-          <Link to="/#blog">Blog</Link>
+          <Link to="/destaq">Atividades</Link>
+          <Link to="/sobre">Sobre Nós</Link>
+          <Link to="/loja">Loja</Link>
+          <Link to="/blog">Blog</Link>
         </nav>
         
         <div className={styles.lang}>PT-BR</div>
