@@ -31,9 +31,9 @@ const Navbar = () => {
         
         <nav className={styles.navLinks}>
           <Link to="/">Início</Link>
-          <Link to="/destaq">Atividades</Link>
-          <Link to="/sobre">Sobre Nós</Link>
-          <Link to="/loja">Loja</Link>
+          <Link to="/">Atividades</Link>
+          <Link to="/">Sobre Nós</Link>
+          <Link to="/">Loja</Link>
           <Link to="/blog">Blog</Link>
         </nav>
         

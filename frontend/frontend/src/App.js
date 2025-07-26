@@ -9,6 +9,7 @@ import TurismoQuixada from './pages/TurismoQuixada';
 import TourPilotos from './pages/TuorPilotos';
 import BlogPage from './pages/Blog';
 import './assets/styles/global.css';
+import CursoIniciantes from './pages/CursoIniciantes';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/turismoquixada" element={<TurismoQuixada />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/livetracking" element={<LiveTracking />} />
+            <Route path="/cursoiniciantes" element={<CursoIniciantes />} />
           </Routes>
         </main>
         

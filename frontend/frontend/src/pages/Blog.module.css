@@ -1,9 +1,4 @@
-/* Estilo da página completa */
-.blogPage {
-  padding-top: 80px; /* Espaço para o navbar */
-}
 
-/* Container do conteúdo */
 .blogContainer {
   max-width: 800px;
   margin: 0 auto;

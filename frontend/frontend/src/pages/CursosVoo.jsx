@@ -8,7 +8,6 @@ import cursosparavoo2 from '../assets/img/cursosparavoo2.png';
 import cursosparavoo3 from '../assets/img/cursosparavoo3.png';
 import cursosparavoo4 from '../assets/img/cursosparavoo4.png';
 import cursosparavoo5 from '../assets/img/cursosparavoo5.png';  
-import CursoIniciantes from './CursoIniciantes';
 
 const CursosVoo = () => {
   const courses = [
