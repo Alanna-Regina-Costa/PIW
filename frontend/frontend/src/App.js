@@ -10,6 +10,10 @@ import TourPilotos from './pages/TuorPilotos';
 import BlogPage from './pages/Blog';
 import './assets/styles/global.css';
 import CursoIniciantes from './pages/CursoIniciantes';
+import CursoVooDistancia from './pages/CursoVooDistancia';
+import CursoVooTermicas from './pages/CursoVooTermicas';
+import CursoRebocado from './pages/CursoRebocado';
+import CursoResgate from './pages/CursoResgate'; 
 
 const App = () => {
   return (
@@ -26,6 +30,10 @@ const App = () => {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/livetracking" element={<LiveTracking />} />
             <Route path="/cursoiniciantes" element={<CursoIniciantes />} />
+            <Route path="/CursoVooDistancia" element={<CursoVooDistancia />} />
+            <Route path="/cursovootermicas" element={<CursoVooTermicas />} />
+            <Route path="/cursorebocado" element={<CursoRebocado />} />
+            <Route path="/cursoresgate" element={<CursoResgate />} />
           </Routes>
         </main>
         

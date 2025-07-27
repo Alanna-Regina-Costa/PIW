@@ -33,13 +33,13 @@ const CursosVoo = () => {
       image: cursosparavoo4,
       title: "Curso de Operação em Voo Rebocado",
       description: "Para aqueles que desejam realizar voos mais longos, com segurança e autonomia...",
-      link: "/cursovoodistancia"
+      link: "/cursorebocado"
     },
     {
       image: cursosparavoo5,
       title: "Curso para resgate de Voo Livre",
       description: "Para aqueles que desejam realizar voos mais longos, com segurança e autonomia...",
-      link: "/cursovoodistancia"
+      link: "/cursoresgate"
     }
   ];
 

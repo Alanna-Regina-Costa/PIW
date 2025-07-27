@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './CursoIniciantes.module.css';
+import styles from './CursoTemplate.module.css';
 import whatsappIcon from '../assets/img/whatsapp-icon.png';
 import bannerImage from '../assets/img/banner1.png';
 import Hero from '../components/Hero';
